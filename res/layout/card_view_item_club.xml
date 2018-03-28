@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cV"
+    android:layout_width="170dp"
+    android:layout_height="300dp"
+    android:layout_margin="10dp"
+    android:onClick="click">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/clubPicture"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/colorStartBlue"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/clubName"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:text="Demo Club"
+            android:textColor="@color/colorStartBlue" />
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
